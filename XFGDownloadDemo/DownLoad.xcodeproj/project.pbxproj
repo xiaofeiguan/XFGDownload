@@ -26,6 +26,8 @@
 		77993B1B249A5107003E0B5C /* XFGDownloadTaskTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 77993B1A249A5107003E0B5C /* XFGDownloadTaskTuple.m */; };
 		77993B1E249A5415003E0B5C /* XFGDownloadTupleQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 77993B1D249A5415003E0B5C /* XFGDownloadTupleQueue.m */; };
 		77993B21249A6ED7003E0B5C /* XFGDownloadTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 77993B20249A6ED7003E0B5C /* XFGDownloadTools.m */; };
+		77993B24249A726D003E0B5C /* XFGDownloadTaskRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 77993B23249A726D003E0B5C /* XFGDownloadTaskRule.m */; };
+		77993B27249A74AB003E0B5C /* XFGDownloadTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 77993B26249A74AB003E0B5C /* XFGDownloadTaskQueue.m */; };
 		E607DBCDFBDD3FF3AB8B1FDF /* Pods_DownLoad_DownLoadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2D1D507163BF78C37326F7 /* Pods_DownLoad_DownLoadUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,10 @@
 		77993B1D249A5415003E0B5C /* XFGDownloadTupleQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFGDownloadTupleQueue.m; sourceTree = "<group>"; };
 		77993B1F249A6ED7003E0B5C /* XFGDownloadTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFGDownloadTools.h; sourceTree = "<group>"; };
 		77993B20249A6ED7003E0B5C /* XFGDownloadTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFGDownloadTools.m; sourceTree = "<group>"; };
+		77993B22249A726D003E0B5C /* XFGDownloadTaskRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFGDownloadTaskRule.h; sourceTree = "<group>"; };
+		77993B23249A726D003E0B5C /* XFGDownloadTaskRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFGDownloadTaskRule.m; sourceTree = "<group>"; };
+		77993B25249A74AB003E0B5C /* XFGDownloadTaskQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFGDownloadTaskQueue.h; sourceTree = "<group>"; };
+		77993B26249A74AB003E0B5C /* XFGDownloadTaskQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFGDownloadTaskQueue.m; sourceTree = "<group>"; };
 		7DEE0FA550B03FC530D80B33 /* Pods-DownLoad-DownLoadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoad-DownLoadUITests.release.xcconfig"; path = "Target Support Files/Pods-DownLoad-DownLoadUITests/Pods-DownLoad-DownLoadUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C2D1D507163BF78C37326F7 /* Pods_DownLoad_DownLoadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoad_DownLoadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CBC4087962BC48C1CF7AAD /* Pods_DownLoad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +210,10 @@
 				77993B11249A432D003E0B5C /* XFGDownload.m */,
 				77993B16249A46EC003E0B5C /* XFGDownloadTask.h */,
 				77993B17249A46EC003E0B5C /* XFGDownloadTask.m */,
+				77993B25249A74AB003E0B5C /* XFGDownloadTaskQueue.h */,
+				77993B26249A74AB003E0B5C /* XFGDownloadTaskQueue.m */,
+				77993B22249A726D003E0B5C /* XFGDownloadTaskRule.h */,
+				77993B23249A726D003E0B5C /* XFGDownloadTaskRule.m */,
 				77993B19249A5107003E0B5C /* XFGDownloadTaskTuple.h */,
 				77993B1A249A5107003E0B5C /* XFGDownloadTaskTuple.m */,
 				77993B1C249A5415003E0B5C /* XFGDownloadTupleQueue.h */,
@@ -479,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77993B24249A726D003E0B5C /* XFGDownloadTaskRule.m in Sources */,
 				5B9CBAB62498953E00D721DC /* VideoTableViewCell.m in Sources */,
 				3A72B88F1FB980B300D39A72 /* main.m in Sources */,
 				5B9CBAA324976E6C00D721DC /* LGHListViewController.m in Sources */,
@@ -486,6 +497,7 @@
 				77993B21249A6ED7003E0B5C /* XFGDownloadTools.m in Sources */,
 				77993B1E249A5415003E0B5C /* XFGDownloadTupleQueue.m in Sources */,
 				77993B18249A46EC003E0B5C /* XFGDownloadTask.m in Sources */,
+				77993B27249A74AB003E0B5C /* XFGDownloadTaskQueue.m in Sources */,
 				3A72B8811FB980B300D39A72 /* AppDelegate.m in Sources */,
 				77993B12249A432D003E0B5C /* XFGDownload.m in Sources */,
 				77993B15249A437A003E0B5C /* XFGDownloadManager.m in Sources */,

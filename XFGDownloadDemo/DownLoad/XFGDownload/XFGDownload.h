@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "XFGDownloadManager.h"
+#import "XFGDownloadTaskRule.h"
+#import "XFGDownloadTaskQueue.h"
+#import "XFGDownloadTuple.h"
+#import "XFGDownloadTupleQueue.h"
+#import "XFGDownloadTools.h"
+#import <UIKit/UIKit.h>
+#import <objc/runtime.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XFGDownload : NSObject
