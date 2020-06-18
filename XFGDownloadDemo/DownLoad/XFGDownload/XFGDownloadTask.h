@@ -33,9 +33,11 @@ typedef NS_ENUM(NSUInteger, XFGDownloadTaskState)
 @end
 
 @interface XFGDownloadTask : NSObject
+
 @property (nonatomic, strong) id <NSCoding> object;
 
 @property (nonatomic, weak) XFGDownload * download;
+
 @property (nonatomic, weak) id <SGDownloadTaskDelegate> delegate;
 
 @property (nonatomic, assign) XFGDownloadTaskState state;

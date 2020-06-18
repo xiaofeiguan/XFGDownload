@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface XFGDownloadManager : NSObject
 + (instancetype)sharedInstance;
 
-@property (nonatomic, strong) NSMutableArray <XFGDownload *> * downloads;
+@property (nonatomic, strong) NSMutableArray * downloads;
 @end
 
 NS_ASSUME_NONNULL_END

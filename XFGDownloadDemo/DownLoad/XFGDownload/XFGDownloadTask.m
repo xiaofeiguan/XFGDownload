@@ -95,6 +95,20 @@
 
 
 - (void)setBytesWritten:(int64_t)bytesWritten totalBytesWritten:(int64_t)totalBytesWritten totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite{
+    self.bytesWritten = bytesWritten;
+    self.totalBytesWritten = totalBytesWritten;
+    self.totalBytesExpectedToWrite = totalBytesExpectedToWrite;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        if ([self.delegate respondsToSelector:@selector(taskProgressDidChange:)]) {
+            [self.delegate taskProgressDidChange:self];
+        }
+        
+//        if ([self.download.delegate respondsToSelector:@selector(download:taskProgressDidChange:)]) {
+//            [self.download.delegate download:self.download taskProgressDidChange:self];
+//        }
+        
+        
+    });
     
 }
 
